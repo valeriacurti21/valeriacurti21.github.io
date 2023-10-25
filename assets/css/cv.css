@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Schoolbell';
+    src: url(/assets/font/combo1/woff/Schoolbell-Regular.woff) format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Yeseva One';
+    src: url(/assets/font/combo1/woff/YesevaOne-Regular.woff) format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(/assets/font/combo1/woff/JosefinSans-Regular.woff);
+    font-style: normal;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.a:link{
+    color: #fff;
+    text-decoration: none;
+}
+.a:visited{
+    color: #ffcc33;
+    text-decoration: none;
+}
+.a:hover{
+    color: #ffcc33;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.a:active{
+    color: black;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background:#fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.container .left_side {
+    position: relative;
+    background:  #7c16ca;
+    padding: 40px;
+}
+.profileText span{
+    font-family: 'Josefin Sans';
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: medium;
+    color: #fff;
+    line-height: 1.4em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,204,51);
+}
+.profileText .imgBx{
+    position: relative;
+}
+.profileText .imgBx img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2{
+    font-family: 'Yeseva One';
+    margin-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+h3{
+    background-color: #ffcc33;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.title, strong {
+    font-family: 'Yeseva One';
+    padding-top: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.contactinfo{
+font-family: 'Josefin Sans';
+color: #fff;
+text-align: justify;
+line-height: 1.4em;
+padding-top: 20px;
+}
+
+.contactinfo ul{
+    position: relative;
+    text-align: justify;
+}
+.contactinfo ul li{
+    position: relative;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+i{
+    color: #ffcc33;
+    display: inline-block;
+    width: 20px;
+    font-size: large;
+}
+
+
+.disclaimer{
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,204,51);
+    text-align: justify;
+}
+
+
+
+.container .right_side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about h2{
+    color: #7c16ca;
+    margin-bottom: 20px;
+}
+.about{
+    font-family: 'Josefin Sans';
+    margin-bottom: 30px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    margin-bottom: 10px;
+}
+.about .box .yearedu{
+    min-width: 270px;
+    text-transform: uppercase;
+    color: #626262;
+    font-size: medium;
+}
+.about .box .yearedu span {
+    color: #7c16ca;
+    font-weight: 700;
+    font-size: small;
+}
+.about .box .text{
+    font-size: 14px;
+}
+.text h4{
+    text-transform: uppercase;
+}
+
+.skill .box{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    flex-direction: row;
+    margin: 25px 0;
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.box h5{
+    text-transform: uppercase;
+}
+.skill .box .percent{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #e8e8e8;
+}
+.skill .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #ffcc33;
+}
+
+
+@media screen and ( max-width: 800px) {
+    .container{
+        flex-direction: column;
+        margin: 10px auto;
+        width: 95%;
+        display: flex;
+    }
+    .left_side, .right_side {
+        width: 100%;
+    }    
+    .about .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .about .box .yearedu{
+        margin-bottom: 10px;
+    }
+    .skill .box .percent {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #e8e8e8;
+        flex-direction: column;
+        display: flex;
+        padding: 5px;
+      }
+      .about{
+        font-size: 14px;
+      }
+
+}

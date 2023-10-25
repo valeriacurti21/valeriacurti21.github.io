@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Schoolbell';
+    src: url(/assets/font/combo1/woff/Schoolbell-Regular.woff) format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Yeseva One';
+    src: url(/assets/font/combo1/woff/YesevaOne-Regular.woff) format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(/assets/font/combo1/woff/JosefinSans-Regular.woff);
+    font-style: normal;
+}

@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Schoolbell';
+    src: url(/assets/font/combo1/woff/Schoolbell-Regular.woff) format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Yeseva One';
+    src: url(/assets/font/combo1/woff/YesevaOne-Regular.woff) format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(/assets/font/combo1/woff/JosefinSans-Regular.woff);
+    font-style: normal;
+}
+
+@media screen and ( max-width: 800px)  {}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+body{
+    background-color: #fff;
+    background-image: url(/assets/img/undraw_project_complete_lwss.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+    background-size: 500px;
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.card{
+    width: 500px;
+    background-color: #e8e8e8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.cardtext{
+    padding: 16px;
+}
+
+.cardtext h3{
+    font-size: 26px;
+    font-family: 'Yeseva One';
+    margin-bottom: 8px;
+}
+
+.cardtext p{
+    color: #303030;
+    font-size: 15px;
+    font-family: 'Josefin Sans';
+}
+
+.cardtext .btn{
+display: inline-block;
+padding: 8px 16px;
+background-color: #ffcc33;
+text-decoration: none;
+border-radius: 4px;
+margin-top: 16px;
+color: black;
+}
+
+.section-1{
+background-color: #ffcc33; 
+color: black;
+font-family: 'Josefin Sans';
+text-align: center;
+padding: 20px;
+}
+.section-1 h1{
+    font-family: 'Schoolbell';
+    font-weight: 500;
+}
+
+footer{
+    background-color: #303030;
+    padding: 5px;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+footer h3 {
+    font-family: 'Schoolbell';
+    color: #ffcc33;
+}
+
+.footer-icons i{
+margin-right: 30px;
+padding-right: 30px;
+border-right: #fff 1px solid ;
+align-items: center;
+}
+
+.footer-icons a:link {
+    color: #fff;
+}
+
+.footer-icons a:active {
+color: #ffcc33;
+}
+.footer-icons a:hover {
+color: #7c16ca;
+}
+.footer-icons a:visited {
+color: #ffcc33;
+}
+.footer-bottom p{
+padding-top: 20px;
+font-size: smaller;
+color: #646464;
+}
+
+
+/*
+.card{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 5px;
+    text-align: left;
+    margin-bottom: 5rem;
+} 
+
+h1 {
+    font-family: 'Schoolbell';
+    text-align: justify;
+    margin: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p {
+    font-family: 'Josefin Sans';
+    text-align: justify;
+    margin: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-title {
+font-family: 'Yeseva One';
+text-align: center;
+}
+
+.d-flex {
+    gap: 20px;
+ }
+
+ a:link {
+color: #000;
+ }
+
+ .a:active {
+ color: #ffcc33;
+ }
+
+ .a:hover {
+ color: #ffcc33;
+ }
+ .a:visited {
+color: #303030;
+ }
+
+ .footer {
+ background-color: #303030;
+ color: #fff;
+ font-size: smaller;
+ font-family: 'Josefin Sans';
+ }
+*/

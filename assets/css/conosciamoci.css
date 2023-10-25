@@ -16,6 +16,24 @@
     font-style: normal;
 }
 
+@media all and (min-width: 480px) and (max-width: 768px){
+
+    .right{
+    padding: 90px 30px;
+    }   
+    .right button{
+        width: 170px;
+        padding: 12px 0;
+    }
+    .left{
+    padding: 90px 15px;
+    text-align: justify;
+    }
+}
+
+@media all and (max-width: 480px) {
+
+ }
 body {
     background: #e8e8e8;
     font-family: 'Josefin Sans', sans-serif;
@@ -29,7 +47,7 @@ body {
 }
 .left{
     background: #ffcc33;
-    padding: 110px 98px;
+    padding: 130px 98px;
     position: relative;
 }
 .left h1{
@@ -37,9 +55,11 @@ body {
     color: #303030;
     font-weight: 700;
     font-size: 48px;
+    text-align: center;
 }
 .left h2{
     font-family: 'Yeseva One', cursive;
+    text-align: center;
 }
 .single-form{
     background: #fff;
@@ -70,3 +90,6 @@ body {
     background: #7c16ca;
 }
 
+.textarea {
+    resize: none;
+}

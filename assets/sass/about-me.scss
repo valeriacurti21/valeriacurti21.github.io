@@ -1,0 +1,27 @@
+@import url(/assets/node_modules/bootstrap/scss/_functions.scss);
+@import url(/assets/node_modules/bootstrap/scss/_variables.scss);
+@import url(/assets/node_modules/bootstrap/scss/_maps.scss);
+@import url(/assets/node_modules/bootstrap/scss/_mixins.scss);
+@import url(/assets/node_modules/bootstrap/scss/_utilities.scss);
+
+@font-face {
+    font-family: 'Schoolbell';
+    src: url(/assets/font/combo1/woff/Schoolbell-Regular.woff) format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Yeseva One';
+    src: url(/assets/font/combo1/woff/YesevaOne-Regular.woff) format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(/assets/font/combo1/woff/JosefinSans-Regular.woff);
+    font-style: normal;
+}
+
+.body{
+    background-color: #e8e8e8;
+}
