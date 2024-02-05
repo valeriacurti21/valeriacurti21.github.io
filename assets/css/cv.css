@@ -31,23 +31,8 @@ body{
     align-items: center;
     min-height: 100vh;
 }
-
-
-.a:link{
-    color: #fff;
-    text-decoration: none;
-}
-.a:visited{
-    color: #ffcc33;
-    text-decoration: none;
-}
-.a:hover{
-    color: #ffcc33;
-    text-decoration: underline;
-    cursor: pointer;
-}
-.a:active{
-    color: black;
+h2{
+    color:#ffcc33
 }
 
 .container{
@@ -64,7 +49,7 @@ body{
 
 .container .left_side {
     position: relative;
-    background:  #7c16ca;
+    background: #303030;
     padding: 40px;
 }
 .profileText span{
@@ -88,6 +73,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }
 .profileText h2{
     font-family: 'Yeseva One';
@@ -152,7 +138,7 @@ i{
 }
 
 .about h2{
-    color: #7c16ca;
+    color: #68cf73;
     margin-bottom: 20px;
 }
 .about{
@@ -175,7 +161,7 @@ i{
     font-size: medium;
 }
 .about .box .yearedu span {
-    color: #7c16ca;
+    color: #68cf73;
     font-weight: 700;
     font-size: small;
 }
@@ -223,9 +209,11 @@ i{
         margin: 10px auto;
         width: 95%;
         display: flex;
+        margin-bottom: 10px;
     }
     .left_side, .right_side {
         width: 100%;
+        justify-content: center;
     }    
     .about .box{
         display: flex;
@@ -246,5 +234,54 @@ i{
       .about{
         font-size: 14px;
       }
+      .imgBx{
+        display: inline-flex;
+        align-items: center;
+      }
 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .container{
+        flex-direction: column;
+        margin: 10px auto;
+        width: 95%;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .profileText{
+        display: flex;
+        flex-direction: column;
+        height: 36vh;
+        width: 86vw;
+    }
+    .profileText .imgBx{
+        position: relative;
+       margin: auto;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    
+    .profileText .imgBx{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .profileText .imgBx img{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+        
+    }
+    .contactinfo{
+        font-family: 'Josefin Sans';
+        color: #fff;
+        text-align: center;
+        line-height: 1.4em;
+        padding-top: 20px;
+        }
+        
 }

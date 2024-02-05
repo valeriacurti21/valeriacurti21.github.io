@@ -15,3 +15,292 @@
     src: url(/assets/font/combo1/woff/JosefinSans-Regular.woff);
     font-style: normal;
 }
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  background-color: #cbcbcb;
+  }
+
+header{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+}  
+
+section, .flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 70px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.section-1{
+    background-color: #ffcc33; 
+    padding: 30px 15px 0 15px;
+    width: 100%;
+    }
+    .section-1 h1{
+        font-family: 'Yeseva One';
+        font-weight: 500;
+        font-size: 44px;
+    }
+
+.flex-container img{
+    width: 300px;
+    height: auto;
+}
+
+div .text{
+    max-width: 400px;
+    padding-top: 90px;
+    text-align: left;
+    color: black;
+    font-family: 'Josefin Sans';
+    text-align: left;
+     font-size: 20px;
+    line-height: 20px;
+}
+
+/* 
+    .container-img{
+    max-width: 300px;
+    max-height: auto;
+    }
+.parentContainer img{
+    height: 370px;
+    width: auto;
+    }
+    
+    .parentContainer {
+    position: relative;
+    text-align: left;
+    color: white;
+    }
+    .centered {
+        max-width: 250px;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 400;
+        position: absolute;
+        top: 32%;
+        left: 45%;
+        }
+
+        .centered p{
+            text-shadow: 1px 1px 2px #303030;
+            line-height: 24px;
+        }
+
+    .centered h1{
+        font-family: "Yeseva One";
+        color: #303030;
+        font-size: 32px; 
+        padding-bottom: 5px;
+    }
+*/
+
+
+p{
+    font-family: "Josefin Sans"; 
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+
+.content{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+
+/*
+.custom-shape-divider-top-1702927079 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+
+.custom-shape-divider-top-1702927079 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+.custom-shape-divider-top-1702927079 .shape-fill {
+    fill: #212529;
+}
+*/
+
+
+footer{
+    width: 100%;
+    background-color: #303030;
+    padding: 5px;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p{
+text-align: center;
+font-size: medium;
+}
+
+footer h3 {
+    font-family: 'Schoolbell';
+    color: #ffcc33;
+}
+
+.footer-icons i{
+margin-right: 30px;
+padding-right: 30px;
+border-right: #fff 1px solid ;
+align-items: center;
+}
+
+.footer-icons a:link {
+    color: #fff;
+}
+
+.footer-icons a:active {
+color: #ffcc33;
+}
+.footer-icons a:hover {
+color: #7c16ca;
+}
+.footer-icons a:visited {
+color: #ffcc33;
+}
+.footer-bottom p{
+padding-top: 20px;
+font-size: smaller;
+color: #646464;
+}
+.footer-nav li{
+    display: inline-block;
+    margin-right: 30px;
+    padding-right: 30px;
+    border-right: #fff 2px solid ;
+    align-items: center;
+    }
+    .footer-nav a:link{
+        color: #fff !important;
+        text-decoration: none;
+    }
+    .footer-nav a:active {
+        color: #fff !important;
+    }
+    .footer-nav a:hover{
+        color: #7c16ca !important; 
+    }
+    .footer-nav a:visited{
+        color:#ffcc33
+    }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+
+    section ul {
+        transform: rotate(180deg);
+      }
+      
+      section ul > li {
+        transform: rotate(-180deg);
+      }
+
+    section, .flex-container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 50px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    .section-1{
+        background-color: #ffcc33; 
+        padding: 30px 30px 0 30px;
+        width: 100%;
+        }
+        .section-1 h1{
+            font-family: 'Yeseva One';
+            font-weight: 500;
+            font-size: 44px;
+        }
+    
+    .flex-container img{
+        width: 300px;
+        height: auto;
+    }
+
+    .content{
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+
+    p{
+        font-family: "Josefin Sans"; 
+        text-align: justify;
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    footer{
+        width: 100%;
+        background-color: #303030;
+        padding: 5px;
+        padding-top: 50px;
+        color: #fff;
+        text-align: center;
+        margin-top: auto;
+    }
+    
+    footer p{
+    text-align: center;
+    font-size: small;
+    }
+    
+    footer h3 {
+        font-family: 'Schoolbell';
+        color: #ffcc33;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer li{
+        font-size: 14px;
+    }
+    
+}
