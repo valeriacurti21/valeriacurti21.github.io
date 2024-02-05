@@ -108,6 +108,7 @@ padding-top: 20px;
 .contactinfo ul{
     position: relative;
     text-align: justify;
+    line-height: 1.5;
 }
 .contactinfo ul li{
     position: relative;
@@ -121,6 +122,7 @@ i{
     width: 20px;
     font-size: large;
 }
+
 
 
 .disclaimer{
@@ -170,6 +172,10 @@ i{
 }
 .text h4{
     text-transform: uppercase;
+}
+
+.skill{
+    margin-top: 40px;
 }
 
 .skill .box{
