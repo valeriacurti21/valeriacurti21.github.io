@@ -78,43 +78,6 @@ div .text{
     line-height: 20px;
 }
 
-/* 
-    .container-img{
-    max-width: 300px;
-    max-height: auto;
-    }
-.parentContainer img{
-    height: 370px;
-    width: auto;
-    }
-    
-    .parentContainer {
-    position: relative;
-    text-align: left;
-    color: white;
-    }
-    .centered {
-        max-width: 250px;
-        font-family: "Josefin Sans";
-        font-size: 16px;
-        font-weight: 400;
-        position: absolute;
-        top: 32%;
-        left: 45%;
-        }
-
-        .centered p{
-            text-shadow: 1px 1px 2px #303030;
-            line-height: 24px;
-        }
-
-    .centered h1{
-        font-family: "Yeseva One";
-        color: #303030;
-        font-size: 32px; 
-        padding-bottom: 5px;
-    }
-*/
 
 
 p{
@@ -125,8 +88,12 @@ p{
     line-height: 25px;
 }
 
-
-
+.content:first-child {
+    padding-top: 60px;
+}
+.content:last-child{
+    padding-bottom: 60px;
+}
 .content{
     max-width: 500px;
     margin-left: auto;
@@ -134,30 +101,9 @@ p{
     padding-bottom: 30px;
 }
 
-
-/*
-.custom-shape-divider-top-1702927079 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+.content a{
+    color: #ffcc33;
 }
-
-
-.custom-shape-divider-top-1702927079 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-}
-.custom-shape-divider-top-1702927079 .shape-fill {
-    fill: #212529;
-}
-*/
-
 
 footer{
     width: 100%;
@@ -224,6 +170,8 @@ color: #646464;
     .footer-nav a:visited{
         color:#ffcc33
     }
+
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 
