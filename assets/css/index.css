@@ -27,6 +27,11 @@
     box-sizing: border-box;
 }
 
+nav a img{
+    width: 30px;
+    height: 30px;
+}
+
 body {
   display: grid;
   grid-template-rows: 1fr auto;
