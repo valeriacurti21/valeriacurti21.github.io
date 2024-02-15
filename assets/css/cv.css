@@ -24,6 +24,22 @@
     box-sizing: border-box;
 }
 
+button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #303030;
+    width: 95px;
+    height: 35px;
+    color: #ffcc33;
+    font-family: 'Josefin Sans';
+}
+
+button:hover{
+    color: #ffffff;
+    transition-duration: 0.3s;
+    }
+
 body{
     background: #e8e8e8;
     display: flex;
@@ -252,6 +268,9 @@ i{
 
 
 @media screen and ( max-width: 800px) {
+    body{
+        margin-top: 40px;
+    }
     .container{
         flex-direction: column;
         margin: 10px auto;
@@ -286,10 +305,28 @@ i{
         display: inline-flex;
         align-items: center;
       }
+      button{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #303030;
+        width: 95px;
+        height: 35px;
+        color: #ffcc33;
+        font-family: 'Josefin Sans';
+    }
+    
+    button:hover{
+        color: #ffffff;
+        transition-duration: 0.3s;
+        }
 
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    body{
+        margin-top: 40px;
+    }
     .container{
         flex-direction: column;
         margin: 10px auto;
