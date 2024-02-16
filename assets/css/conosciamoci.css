@@ -37,7 +37,7 @@ button{
     width: 110px;
     height: 35px;
     padding: 5px;
-    background-color: #ffcc33;
+    background-color: transparent;
     color: #303030;
     font-family: 'Josefin Sans';
     border: none;
@@ -145,12 +145,14 @@ p{
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
  
-form {
-background: #fff;
-width: 350px;
-padding: 20px;
-font-size: 16px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
+    form {
+        background: #fff;
+        width: 335px;
+        padding: 20px;
+        font-size: 16px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 80px;
+        margin-bottom: 45px;
+            }
+    
 }
