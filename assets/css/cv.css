@@ -58,7 +58,16 @@ body{
 h2{
     color:#ffcc33
 }
-
+ .profileText h2 a:link{
+ color: #ffcc33 !important;
+ }
+ .profileText h2 a:visited{
+    color: #e8e8e8 !important;
+ }
+ .profileText h2 a:hover{
+    color: #68cf73 !important;
+    text-decoration: underline;
+ }
 .container{
     position: relative;
     width: 100%;
